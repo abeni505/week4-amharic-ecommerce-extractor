@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files (we only track a small labeled sample, not the full scrape)
+data/scraped_telegram_data.csv
+
+# Model files (these are too large for Git)
+models/
+
+# System files
+.DS_Store
