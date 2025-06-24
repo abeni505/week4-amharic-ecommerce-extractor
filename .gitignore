@@ -16,3 +16,10 @@ models/
 
 # System files
 .DS_Store
+
+#virtual Environments
+week-4-venv/
+.venv/
+
+# Generated sessions
+*.session
