@@ -31,6 +31,9 @@ week4-amharic-ecommerce-extractor/
 │   ├── 01_Data_Ingestion_and_Preprocessing.ipynb
 │   ├── 02_Data_Labeling.ipynb
 │   ├── 03_Model_Finetuning.ipynb
+│   ├── 04_Model_Comparison.ipynb
+│   ├── 05_Model_Interpretability.ipynb
+│   └── 06_FinTech_Vendor_Scorecard.ipynb
 ├── reports/
 │   ├── interim_submission.pdf
 ├── src/
@@ -85,7 +88,12 @@ The project is organized into a series of Jupyter notebooks that should be run i
 
 2.  **`notebooks/02_Data_Labeling.ipynb`**:
     *   This notebook contains helper code to sample and view the scraped messages. The primary output of this task is the manually created `data/labeled_data.conll` file.
+      
+3.  `notebooks/03_Model_Finetuning.ipynb`:
+    *   Reads the labeled data, tokenizes it, and fine-tunes the primary NER model. Saves the trained model to the models/ directory.
 
+4.  Subsequent Notebooks (`04` to `06`):
+    *   These notebooks handle model comparison, interpretability, and the final business logic for the FinTech scorecard, respectively.
 
 
 ## Author
